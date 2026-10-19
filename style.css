@@ -1,0 +1,39 @@
+﻿body {
+    margin: 0;
+    padding: 24px;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+
+main {
+    max-width: 760px;
+    margin: 0 auto;
+}
+
+section {
+    margin-bottom: 24px;
+    padding: 18px;
+    background-color: white;
+    border: 1px solid #d0d0d0;
+}
+
+.external-style h1 {
+    color: green;
+}
+
+.external-style p {
+    color: blue;
+}
+
+h2 {
+    color: #333;
+    font-size: 20px;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+p {
+    font-size: 18px;
+}

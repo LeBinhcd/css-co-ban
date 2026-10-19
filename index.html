@@ -3,33 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Luyện tập CSS cơ bản</title>
+    <title>Các cách nhúng CSS</title>
+    <link rel="stylesheet" href="style.css">
     <style>
-        h1 {
-            color: blue;
-            font-family: Tahoma, sans-serif;
-            font-size: 200%;
-        }
-
-        p {
-            color: red;
-            font-family: Arial, sans-serif;
-            font-size: 120%;
-            border: 1px solid grey;
-            padding: 10px;
-        }
-
-        #element1 {
-            color: blue;
-        }
+        .internal-style h1 { color: darkorange; }
+        .internal-style p { color: purple; }
     </style>
 </head>
 <body>
-    <h1>Đây là đề mục</h1>
-
-    <p>Đây là đoạn văn bản.</p>
-    <p>Đây là đoạn văn bản.</p>
-    <p>Đây là đoạn văn bản.</p>
-    <p id="element1">Đoạn văn bản có thuộc tính id</p>
+    <main>
+        <section class="inline-style">
+            <h2>Phần 1: Inline-style</h2>
+            <h1 style="color: green;">This is heading 1</h1>
+            <p style="color: blue;">This is an ordinary paragraph. Màu chữ được thay đổi bằng inline-style.</p>
+        </section>
+        <section class="internal-style">
+            <h2>Phần 2: Internal-style</h2>
+            <h1>This is heading 1</h1>
+            <p>This is an ordinary paragraph. Màu chữ được thay đổi bằng internal-style.</p>
+        </section>
+        <section class="external-style">
+            <h2>Phần 3: External-style</h2>
+            <h1>This is heading 1</h1>
+            <p>This is an ordinary paragraph. Màu chữ được thay đổi bằng external-style.</p>
+        </section>
+    </main>
 </body>
 </html>
